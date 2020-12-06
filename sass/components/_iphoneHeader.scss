@@ -1,0 +1,47 @@
+@media (max-width:360px) {
+    header {
+        #Menu {
+            transition: 5s;
+        }
+        #Wave {
+            width: 100%;
+        }
+        #Megaphone {
+            width: 25%;
+        }
+
+        .entete {
+            display: block;
+            text-align: center;
+
+            img {
+                margin-left: 40px;
+                margin-top: 60%;
+            }
+
+            h3 {
+                font-size: 30px;
+                margin-top: 1%;
+            }
+
+            ul {
+                display: none;
+                position: absolute;
+                top: 3%;
+                right: 40%;
+            }
+
+            li {
+                padding: 10px 0px;
+            }
+        }
+
+        .entete2 {
+            #phone {
+                position: absolute;
+                top: 126%;
+            }
+
+        }
+    }
+}

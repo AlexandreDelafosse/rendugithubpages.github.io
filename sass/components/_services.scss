@@ -1,0 +1,48 @@
+ .Services {
+     text-align: start;
+     background: white;
+     padding: 40px 80px 80px 87px;
+     margin: 80px 80px;
+     width: 25%;
+     min-height: 500px;
+     border-radius: $radius;
+     box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+     position: relative;
+
+     img {
+         padding: 20px 90px;
+     }
+
+     p {
+         color:$noir;
+         font-family: $Poppins;
+         font-weight: $medium;
+         font-size: $Size12;
+     }
+
+     h2 {
+        color:$noir;
+         font-family: $Poppins;
+         font-size: $Size18;
+         font-weight: $bold;
+         padding: 20px 0px;
+
+     }
+
+     a {
+         float: right;
+         margin-top: 30px;
+     }
+ }
+
+      .WWO{
+                   font-family: $Poppins;
+         font-size: $Size50;
+         font-weight: $bold;
+            margin-top:0px;
+            color:$noir;
+     }
+
+     .WhatWO{
+         margin-left:10px;
+     }

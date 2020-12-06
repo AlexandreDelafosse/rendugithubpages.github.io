@@ -1,0 +1,19 @@
+@media (max-width:800px) {
+
+    .Servicesart{
+        display:block;
+    }
+    .Services {
+padding: 80px;
+    margin: 35px;
+    width: 90%;
+
+        img {
+            padding: 20px 200px;
+        }
+
+        p{
+         font-size: $Size20;
+        }
+    }
+}

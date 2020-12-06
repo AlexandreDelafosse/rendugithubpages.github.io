@@ -1,0 +1,44 @@
+@media (max-width:360px) {
+    footer {
+        height: 109vh;
+        background-size: 540%;
+        background-position: 14% 100%;
+        .FooterInfos {
+            display: block;
+            text-align: center;
+
+            li {
+                text-align: center;
+            }
+
+            .LogosTitresFooter {
+                padding: 0%;
+            }
+            
+            .LogosFooter,
+            .Horaires {
+                margin-left: 55px;
+            }
+
+            .Contacts{
+                margin-left:90px;
+            }
+        }
+
+        section {
+
+            h3 {
+                padding: 0px;
+            }
+
+            .soustitre {
+                padding: 0px
+            }
+
+            .InputFooter {
+                margin: 10px 0px 0px;
+            }
+        }
+    }
+
+}

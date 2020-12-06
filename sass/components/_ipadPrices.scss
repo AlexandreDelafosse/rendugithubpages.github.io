@@ -1,0 +1,24 @@
+@media (max-width:800px) {
+    .ContainerPrices {
+        padding-left: 0px;
+        display:block;
+    }
+
+    .Prices {
+        padding: 40px 0px 80px 0px;
+        margin: 80px 150px;
+        width: 60%;
+    }
+
+    .ContainerPrices {
+        padding-left: 0px;
+    }
+
+    .SecPrices h3 {
+        font-size: $Size30;
+    }
+
+    .Prices .TitresPrix {
+        font-size: $Size30;
+    }
+}

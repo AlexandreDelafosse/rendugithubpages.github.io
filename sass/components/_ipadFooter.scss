@@ -1,0 +1,63 @@
+@media (max-width:800px) {
+    footer {
+            height: 75vh;
+        background-size: 250%;
+        padding-top:85px;
+        .Contacts {
+            margin-left: 0px;
+        }
+        section .InputFooter {
+            margin: 50px 0px 120px;
+            padding: 0px;
+        }
+
+        .FooterInfos {
+            text-align:center;
+            display:block;
+            height: 188px;
+            margin-top: 0px;
+            
+            article {
+                padding: 10px 25px;
+            }
+
+            .LogosTitresFooter {
+                padding-left: 2%;
+            }
+
+            .Horaires{
+                margin-left:275px;
+            }
+            li {
+                text-align:center;
+                padding: 4px;
+                font-size: $Size12;
+            }
+
+            a {
+                font-size: $Size12;
+            }
+
+            h6 {
+                font-size: $Size16;
+            }
+
+            .LogosTitresFooter h5 {
+                font-size: $Size30;
+            }
+
+            .LogosTitresFooter p {
+                font-size: $Size20
+            }
+
+            .LogosFooter{
+                                margin-left:250px;
+            }
+
+            .Contacts{
+                                margin-left:300px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,49 @@
+@media (max-width:800px) {
+    header {
+        #Wave {
+            z-index: -2;
+            width: 60%;
+        }
+
+        .entete {
+            li {
+                font-size: $Size12;
+            }
+
+            ul {
+                position: absolute;
+                top: 10%;
+                right: 4%;
+            }
+
+            img {
+                margin-left: 40px;
+            }
+        }
+
+        .entete2 {
+            margin-left: 25%;
+            margin-top: 20%;
+
+            h1 {
+                font-size: 20px;
+            }
+
+            u {
+                font-size: 44px;
+            }
+
+            #phone {
+                width: 60%;
+                position: absolute;
+                top: 60%;
+                right: 20%;
+            }
+
+            p {
+                font-size: $Size12;
+            }
+        }
+
+    }
+}

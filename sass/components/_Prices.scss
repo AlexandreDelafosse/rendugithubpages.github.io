@@ -1,0 +1,22 @@
+.SecPrices {
+    background-color: rgba(0, 0, 255, 0.5);
+    padding-top:5px;
+        text-align: center;
+
+    h3 {
+        text-align:center;
+        font-family: $Poppins;
+        font-size: $Size50;
+    }
+}
+
+.ContainerPrices {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.soustitre {
+    font-family: $Dosis;
+    font-size: $Size20;
+}

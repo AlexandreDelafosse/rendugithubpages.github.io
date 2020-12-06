@@ -1,0 +1,32 @@
+@media (max-width:800px) {
+    .Biographie {
+        text-align:center;
+        article{
+            width:100%;
+
+            img{
+                width:50%;
+            }
+        }
+        
+        display:block;
+        h3 {
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .Biographietexte {
+        p {
+            padding: 10px 10px;
+            font-size: $Size12;
+        }
+
+        h4 {
+            font-size: $Size30;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@media (max-width:360px) {
+    .Servicesart {
+        display: block;
+    }
+
+    .Services {
+        padding: 80px;
+        text-align: center;
+        margin: 20px 10px;
+        width: 95%;
+
+        img{
+                padding: 20px 40px;
+        }
+
+        h3{
+        font-family: $Poppins;
+        font-size: $Size20;
+        }
+
+        p{
+        font-size: $Size12;
+        }
+    }
+}

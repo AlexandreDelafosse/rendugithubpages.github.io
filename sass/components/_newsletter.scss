@@ -1,0 +1,35 @@
+section{
+    label{
+        display:none;
+    }
+    .Newsletter{
+        text-align:center;
+
+            h3 {
+        text-align: center;
+        font-family: $Poppins;
+        font-size: $Size30;
+        font-weight: $light;
+    }
+    u {
+        font-weight: $bold;
+        text-decoration: $none;
+    }
+        .InputFooter {
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding: 50px 0px 150px
+    }
+        input {
+            border-radius:10px;
+        border: hidden;
+        background-color: #F6F7FB;
+        padding: 20px;
+        height: 50px;
+        width: 300px;
+        font-size: 1em;
+    }
+
+    }
+}

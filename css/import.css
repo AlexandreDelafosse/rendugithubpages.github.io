@@ -1,0 +1,582 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  height: 100vh; }
+  header #Wave {
+    position: absolute;
+    width: 50%;
+    right: 0%; }
+
+.entete {
+  display: flex; }
+  .entete li {
+    color: white;
+    padding: 0px 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: medium; }
+  .entete ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 10%;
+    right: 18%; }
+  .entete img {
+    margin-left: 250px;
+    margin-top: 20%; }
+  .entete span {
+    color: #42495B;
+    margin-top: 3%;
+    padding-left: 15px;
+    font-size: 45px;
+    padding-top: 40px;
+    font-family: "Dosis", sans-serif;
+    font-size: 40px;
+    font-weight: bold; }
+
+.entete2 {
+  color: #42495B;
+  margin-left: 15%;
+  margin-top: 10%; }
+  .entete2 h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 100; }
+  .entete2 u {
+    font-family: "Poppins", sans-serif;
+    font-size: 74px;
+    font-weight: bold;
+    text-decoration: none; }
+  .entete2 p {
+    margin: revert;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 100; }
+  .entete2 #phone {
+    position: absolute;
+    top: 20%;
+    right: 7.6%; }
+    .entete2 #phone img {
+      width: 90%; }
+  .entete2 hr {
+    width: 20px;
+    transform: rotate(90deg);
+    color: #1000FF;
+    margin-left: -5px; }
+  .entete2 #networks {
+    position: absolute;
+    top: 40%;
+    left: 5%; }
+    .entete2 #networks li {
+      margin: 20px;
+      list-style: none; }
+
+.Services {
+  text-align: start;
+  background: white;
+  padding: 40px 80px 80px 87px;
+  margin: 80px 80px;
+  width: 25%;
+  min-height: 500px;
+  border-radius: 25px;
+  box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+  position: relative; }
+  .Services img {
+    padding: 20px 90px; }
+  .Services p {
+    color: #42495B;
+    font-family: "Poppins", sans-serif;
+    font-weight: medium;
+    font-size: 12px; }
+  .Services h2 {
+    color: #42495B;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0px; }
+  .Services a {
+    float: right;
+    margin-top: 30px; }
+
+.WWO {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0px;
+  color: #42495B; }
+
+.WhatWO {
+  margin-left: 10px; }
+
+.Servicesart {
+  background-image: url(/assets/img/background-service.png);
+  background-repeat: no-repeat;
+  display: flex; }
+
+.Prices2 {
+  display: flex; }
+
+.Biographie {
+  padding-top: 80px;
+  text-align: start;
+  display: flex; }
+  .Biographie article {
+    width: 50%; }
+
+.Biographietexte {
+  color: #42495B;
+  background: url(/assets/img/background-we-are.png); }
+  .Biographietexte p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    width: 100%;
+    font-size: 16px;
+    color: grey;
+    padding: 20px 400px 20px 0px; }
+  .Biographietexte span {
+    color: #7E76F9;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    margin: revert; }
+
+section .soustitre, section h2 {
+  padding-top: 50px; }
+
+section .soustitre {
+  color: #554AFF; }
+
+section h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px; }
+
+section h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bold; }
+
+.mouse {
+  background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16); }
+
+footer {
+  padding-top: 150px;
+  background-image: url(/assets/img/footer.png);
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 100%;
+  position: relative; }
+  footer .Contacts {
+    margin-left: 0px; }
+  footer #Wave {
+    z-index: -1; }
+  footer .Contacts {
+    display: flex; }
+
+.FooterInfos {
+  display: flex;
+  margin-top: 300px; }
+  .FooterInfos a, .FooterInfos li {
+    text-align: start;
+    color: white;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px; }
+  .FooterInfos a {
+    text-decoration: none; }
+  .FooterInfos ul {
+    list-style: none; }
+  .FooterInfos h6 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px; }
+  .FooterInfos .Horaires {
+    display: flex; }
+  .FooterInfos article {
+    padding: 0px 100px; }
+  .FooterInfos .LogosFooter {
+    display: flex; }
+    .FooterInfos .LogosFooter img {
+      padding: 15px; }
+  .FooterInfos .LogosTitresFooter {
+    text-align: center;
+    color: white;
+    padding-left: 15%; }
+    .FooterInfos .LogosTitresFooter h5 {
+      font-family: "Dosis", sans-serif;
+      font-size: 50px;
+      font-weight: bold; }
+    .FooterInfos .LogosTitresFooter p {
+      font-family: "Poppins", sans-serif;
+      font-size: 30px; }
+
+.Prices {
+  align-items: center;
+  text-align: center;
+  background: white;
+  padding: 40px 40px 80px 40px;
+  margin: 80px 100px;
+  width: 20%;
+  border-radius: 25px;
+  box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16); }
+  .Prices .TitresPrix {
+    font-family: "Dosis", sans-serif;
+    font-size: 28px; }
+  .Prices a {
+    margin: 30px 0px 0px 0px; }
+  .Prices span, .Prices .Montants {
+    padding: 40px 0px 0px 0px; }
+  .Prices span {
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-size: 16px; }
+  .Prices .Montants {
+    color: #1000FF;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold; }
+
+.SecPrices {
+  background-color: rgba(0, 0, 255, 0.5);
+  padding-top: 5px;
+  text-align: center; }
+  .SecPrices h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px; }
+
+.ContainerPrices {
+  display: flex;
+  align-items: center;
+  padding-left: 150px; }
+
+.soustitre {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px; }
+
+.cta4 {
+  margin-left: 10px;
+  border-radius: 25px;
+  background-image: linear-gradient(to left, #6156f9, #1a129f);
+  padding: 1% 2%;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif; }
+
+.cta3 {
+  border: 2px solid #1000FF;
+  border-radius: 25px;
+  background-image: linear-gradient(to left, #6156f9, #1a129f);
+  padding: 1% 2%;
+  display: inline-block;
+  text-decoration: none;
+  background: white;
+  color: black;
+  font-family: "Dosis", sans-serif;
+  font-size: 16px;
+  padding: 8px 16px;
+  margin: 10px 0px 0px 0px; }
+
+.cta2 {
+  border-radius: 25px;
+  background-image: linear-gradient(to left, #6156f9, #1a129f);
+  padding: 1% 2%;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  bottom: 10%;
+  right: 25%; }
+
+.cta {
+  border-radius: 25px;
+  background-image: linear-gradient(to left, #6156f9, #1a129f);
+  padding: 1% 2%;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: normal; }
+
+section label {
+  display: none; }
+
+section .Newsletter {
+  text-align: center; }
+  section .Newsletter h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 100; }
+  section .Newsletter u {
+    font-weight: bold;
+    text-decoration: none; }
+  section .Newsletter .InputFooter {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0px 150px; }
+  section .Newsletter input {
+    border-radius: 10px;
+    border: hidden;
+    background-color: #F6F7FB;
+    padding: 20px;
+    height: 50px;
+    width: 300px;
+    font-size: 1em; }
+
+@media (max-width: 800px) {
+  header #Wave {
+    z-index: -2;
+    width: 60%; }
+  header .entete li {
+    font-size: 12px; }
+  header .entete ul {
+    position: absolute;
+    top: 10%;
+    right: 4%; }
+  header .entete img {
+    margin-left: 40px; }
+  header .entete2 {
+    margin-left: 25%;
+    margin-top: 20%; }
+    header .entete2 h1 {
+      font-size: 20px; }
+    header .entete2 u {
+      font-size: 44px; }
+    header .entete2 #phone {
+      width: 60%;
+      position: absolute;
+      top: 60%;
+      right: 20%; }
+    header .entete2 p {
+      font-size: 12px; } }
+
+@media (max-width: 800px) {
+  .Biographie {
+    text-align: center;
+    display: block; }
+    .Biographie article {
+      width: 100%; }
+      .Biographie article img {
+        width: 50%; }
+    .Biographie h3 {
+      text-align: center; }
+    .Biographie img {
+      width: 100%; }
+  .Biographietexte p {
+    padding: 10px 10px;
+    font-size: 12px; }
+  .Biographietexte h4 {
+    font-size: 30px; } }
+
+@media (max-width: 800px) {
+  .Servicesart {
+    display: block; }
+  .Services {
+    padding: 80px;
+    margin: 35px;
+    width: 90%; }
+    .Services img {
+      padding: 20px 200px; }
+    .Services p {
+      font-size: 20px; } }
+
+@media (max-width: 800px) {
+  .ContainerPrices {
+    padding-left: 0px;
+    display: block; }
+  .Prices {
+    padding: 40px 0px 80px 0px;
+    margin: 80px 150px;
+    width: 60%; }
+  .ContainerPrices {
+    padding-left: 0px; }
+  .SecPrices h3 {
+    font-size: 30px; }
+  .Prices .TitresPrix {
+    font-size: 30px; } }
+
+@media (max-width: 800px) {
+  footer {
+    height: 75vh;
+    background-size: 250%;
+    padding-top: 85px; }
+    footer .Contacts {
+      margin-left: 0px; }
+    footer section .InputFooter {
+      margin: 50px 0px 120px;
+      padding: 0px; }
+    footer .FooterInfos {
+      text-align: center;
+      display: block;
+      height: 188px;
+      margin-top: 0px; }
+      footer .FooterInfos article {
+        padding: 10px 25px; }
+      footer .FooterInfos .LogosTitresFooter {
+        padding-left: 2%; }
+      footer .FooterInfos .Horaires {
+        margin-left: 275px; }
+      footer .FooterInfos li {
+        text-align: center;
+        padding: 4px;
+        font-size: 12px; }
+      footer .FooterInfos a {
+        font-size: 12px; }
+      footer .FooterInfos h6 {
+        font-size: 16px; }
+      footer .FooterInfos .LogosTitresFooter h5 {
+        font-size: 30px; }
+      footer .FooterInfos .LogosTitresFooter p {
+        font-size: 20px; }
+      footer .FooterInfos .LogosFooter {
+        margin-left: 250px; }
+      footer .FooterInfos .Contacts {
+        margin-left: 300px; } }
+
+@media (max-width: 360px) {
+  header #Menu {
+    transition: 5s; }
+  header #Wave {
+    width: 100%; }
+  header #Megaphone {
+    width: 25%; }
+  header .entete {
+    display: block;
+    text-align: center; }
+    header .entete img {
+      margin-left: 40px;
+      margin-top: 60%; }
+    header .entete h3 {
+      font-size: 30px;
+      margin-top: 1%; }
+    header .entete ul {
+      display: none;
+      position: absolute;
+      top: 3%;
+      right: 40%; }
+    header .entete li {
+      padding: 10px 0px; }
+  header .entete2 #phone {
+    position: absolute;
+    top: 126%; } }
+
+@media (max-width: 360px) {
+  .mouse {
+    margin-top: 110%; } }
+
+@media (max-width: 360px) {
+  .Biographie {
+    display: block;
+    text-align: center; }
+    .Biographie article {
+      width: 100%; } }
+
+@media (max-width: 360px) {
+  .Servicesart {
+    display: block; }
+  .Services {
+    padding: 80px;
+    text-align: center;
+    margin: 20px 10px;
+    width: 95%; }
+    .Services img {
+      padding: 20px 40px; }
+    .Services h3 {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px; }
+    .Services p {
+      font-size: 12px; } }
+
+@media (max-width: 360px) {
+  .ContainerPrices {
+    display: block; }
+  .Prices {
+    padding: 15px;
+    margin: 15px;
+    width: 90%; }
+  .SecPrices {
+    padding-bottom: 25px; }
+  .WWO {
+    font-size: 30px; } }
+
+@media (max-width: 360px) {
+  .cta2 {
+    position: absolute;
+    bottom: 5%;
+    right: 35%; } }
+
+@media (max-width: 360px) {
+  .cta4 {
+    margin-top: 10px;
+    margin-bottom: 20px; } }
+
+@media (max-width: 360px) {
+  footer {
+    height: 109vh;
+    background-size: 540%;
+    background-position: 14% 100%; }
+    footer .FooterInfos {
+      display: block;
+      text-align: center; }
+      footer .FooterInfos li {
+        text-align: center; }
+      footer .FooterInfos .LogosTitresFooter {
+        padding: 0%; }
+      footer .FooterInfos .LogosFooter,
+      footer .FooterInfos .Horaires {
+        margin-left: 55px; }
+      footer .FooterInfos .Contacts {
+        margin-left: 90px; }
+    footer section h3 {
+      padding: 0px; }
+    footer section .soustitre {
+      padding: 0px; }
+    footer section .InputFooter {
+      margin: 10px 0px 0px; } }
+
+.menuburger,
+.burgermenu {
+  display: none;
+  cursor: pointer; }
+
+@media (max-width: 600px) {
+  .menu {
+    padding-top: 0px;
+    opacity: 0;
+    max-height: 0px;
+    flex-basis: 100%;
+    overflow: hidden;
+    transition: opacity .4s .1s ease-in-out;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .burgermenu:checked ~ .menu {
+    max-height: none;
+    opacity: 1;
+    visibility: visible; }
+  .menuburger {
+    position: absolute;
+    right: 0%;
+    padding: 20px 20px;
+    text-align: right;
+    font-size: 36px;
+    display: block; } }

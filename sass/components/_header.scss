@@ -1,0 +1,98 @@
+header {
+    height: 100vh;
+
+    #Wave {
+        position: absolute;
+        width: 50%;
+        right: 0%;
+    }
+}
+.entete {
+    display: flex;
+    
+    li {
+        color: $white;
+        padding: 0px 15px;
+        font-family: $Poppins;
+        font-size: $Size16;
+        font-weight: $medium;
+
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        position: absolute;
+        top: 10%;
+        right: 18%;
+    }
+
+    img {
+        margin-left: 250px;
+        margin-top: 20%;
+    }
+
+    span {
+        color:$noir;
+        margin-top: 3%;
+        padding-left: 15px;
+        font-size: 45px;
+        padding-top: 40px;
+        font-family: $Dosis;
+        font-size: $Size40;
+        font-weight: $bold;
+    }
+}
+
+.entete2 {
+    color:$noir;
+    margin-left: 15%;
+    margin-top: 10%;
+    h1 {
+        font-family: $Poppins;
+        font-size: 50px;
+        font-weight: $light;
+    }
+
+    u {
+        font-family: $Poppins;
+        font-size: 74px;
+        font-weight: $bold;
+        text-decoration: $none;
+    }
+
+    p {
+        margin: revert;
+        font-family: $Poppins;
+        font-size: $Size16;
+        font-weight: $light;
+    }
+
+    #phone {
+        position: absolute;
+        top: 20%;
+        right: 7.6%;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    hr {
+        width: 20px;
+        transform: rotate(90deg);
+        color: $bleu;
+        margin-left: -5px;
+    }
+
+    #networks {
+        position: absolute;
+        top: 40%;
+        left: 5%;
+
+        li {
+            margin: 20px;
+            list-style: none;
+        }
+    }
+}

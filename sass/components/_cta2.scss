@@ -1,0 +1,20 @@
+.cta2 {
+    border-radius: $radius;
+    background-image: $Radient;
+    padding: $PaddingXL;
+    display: inline-block;
+    text-decoration: $none;
+    color: $white;
+    padding: 10px 20px;
+    font-size: $Size12;
+    font-family: $Poppins;
+    position: absolute;
+    bottom: 10%;
+    right: 25%;
+}
+
+@media (max-width:360px) {
+    .cta2{
+
+    }
+}
